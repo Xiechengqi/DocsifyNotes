@@ -1,10 +1,10 @@
 ![logo](./logo.svg)
 # Docsify 学习
-## Notes
-> Yesterday You Said Today !
-* Fighting!
+## Yesterday You Said Tomorrow !
+> ✔
 * Time Is Up !
 * Come On !
+* Fighting!
 
 [开始阅读](README)
 
