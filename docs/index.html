@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Docsify学习</title>
+  <link rel="icon href="./logo.jpg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <!-- gitalk -->
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <style>
+    .sidebar, body {
+        background-color: #fff4e6;
+    }
+  </style>
+</head>
+<body>
+  <!-- loading words -->
+  <div id="app">正在加载...</div>
+  <script>
+    window.$docsify = {
+      name: "Docsify学习",
+      repo: "https://github.com/Xiechengqi/DocsifyNotes",
+      loadNavbar: true,
+      coverpage: true,
+      onlyCover: true
+    }
+  </script>
+  <!-- gitalk -->
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'c87a98c9d14bec971364',
+      clientSecret: 'df65d75bd556e5746340c09a9eec8f1226e118ec',
+      repo: 'GitalkComments',
+      owner: 'Xiechengqi',
+      admin: ['Xiechengqi'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+</body>
+</html>
