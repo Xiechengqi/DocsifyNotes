@@ -1,4 +1,4 @@
-![logo](./logo.svg)
+![logo](./icon.svg)
 # Docsify 学习
 ## Yesterday You Said Tomorrow !
 > ✔
