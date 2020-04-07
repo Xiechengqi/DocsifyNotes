@@ -3,6 +3,7 @@
 
 **一、`index.html` 中修改**
 ```
+      auto2top: true,
       loadSidebar: true,
       maxLevel: 4,
       subMaxLevel: 2
