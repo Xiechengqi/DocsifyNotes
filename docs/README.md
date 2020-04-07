@@ -27,6 +27,11 @@ python3 -m http.server
 ## 侧边栏
 
 ### 效果1
-**[在线预览](https://Xiechengqi.github.io/DocsifyNotes/sidebardemo1)** - **[源码](https://github.com/Xiechengqi/DocsifyNotes/sidebardemo1/)**
+**[在线预览](https://Xiechengqi.github.io/DocsifyNotes/sidebardemo1)** - **[源码](https://github.com/Xiechengqi/DocsifyNotes/tree/master/docs/sidebardemo1)**
 
 ![SideBarDemo1](./sidebardemo1.gif)
+
+### 效果2
+**[在线预览](https://Xiechengqi.github.io/DocsifyNotes/sidebardemo2)** - **[源码](https://github.com/Xiechengqi/DocsifyNotes/tree/master/docs/sidebardemo2)**
+
+![SideBarDemo2](./sidebardemo2.gif)
